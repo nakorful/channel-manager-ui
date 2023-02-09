@@ -39,7 +39,10 @@ function App() {
   });
 
   function handleFBLogin() {
+    window.fbq && window.fbq('trackCustom', 'WhatsAppOnboardingStart', {appId: '222171143207947', feature: 'whatsapp_embedded_signup'});
+
     // Launch Facebook login
+
     window.FB.login(function (response) {
       if (response.authResponse) {
         const accessToken = response.authResponse.accessToken;
