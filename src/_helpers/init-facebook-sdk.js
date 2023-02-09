@@ -1,4 +1,4 @@
-const facebookAppId = '3039457376344121';
+const facebookAppId = '222171143207947';
 
 export function initFacebookSdk() {
     console.log('init facebook sdk was called...');

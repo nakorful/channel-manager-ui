@@ -5,7 +5,7 @@ import {useEffect} from "react";
 import axios from "axios";
 
 function App() {
-  const facebookAppId = '3039457376344121';
+  const facebookAppId = '222171143207947';
 
   function responseFacebook(response) {
     console.log(response);
